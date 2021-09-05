@@ -1,0 +1,14 @@
+{
+  "generateFud": "Fud Yarat!",
+  "language": "Dil",
+  "pageDescription": "Fud Yaratıcısı",
+  "en-GB": "İngilizce 🇬🇧",
+  "tr-TR": "Türkçe 🇹🇷",
+  "fuds": {
+    "gecko": {
+      "fudText": "Arkadaşlar CoinGecko'da neden listelenmiyoruz?",
+      "author": "",
+      "reality": "CoinGecko MacaronSwap'ı 2 Nisan'a kadar listelemedi. Gruptakiler projenin scam olabileceği için listelenmediğini iddia etseler de, şu an CoinGecko'da MacaronSwap'ı bulabilirsiniz :)"
+    }
+  }
+}

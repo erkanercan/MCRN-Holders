@@ -1,0 +1,14 @@
+{
+  "generateFud": "Generate a Fud!",
+  "language": "Language",
+  "pageDescription": "Fud Generator",
+  "en-GB": "English 🇬🇧",
+  "tr-TR": "Turkish 🇹🇷",
+  "fuds": {
+    "gecko": {
+      "fudText": "Why CoinGecko doesn't list us!",
+      "author": "",
+      "reality": "CoinGecko didn't list MacaronSwap until 2nd of April, so people were freaking out about it because the project is a scam and Gecko does not wants to list, but you can find MacaronSwap on CoinGecko now :)"
+    }
+  }
+}
