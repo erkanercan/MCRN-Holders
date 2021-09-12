@@ -1,14 +1,49 @@
 {
   "generateFud": "Fud Yarat!",
   "language": "Dil",
-  "pageDescription": "Fud Yaratıcısı",
+  "fudPageDescription": "Gayrıresmi Fud Yaratıcısı",
   "en-GB": "İngilizce 🇬🇧",
   "tr-TR": "Türkçe 🇹🇷",
   "fuds": {
     "gecko": {
-      "fudText": "Arkadaşlar CoinGecko'da neden listelenmiyoruz?",
-      "author": "",
-      "reality": "CoinGecko MacaronSwap'ı 2 Nisan'a kadar listelemedi. Gruptakiler projenin scam olabileceği için listelenmediğini iddia etseler de, şu an CoinGecko'da MacaronSwap'ı bulabilirsiniz :)"
+      "Text": "Arkadaşlar CoinGecko'da neden listelenmiyoruz?",
+      "Reality": "CoinGecko MacaronSwap'ı 2 Nisan'a kadar listelemedi. Gruptakiler projenin scam olabileceği için listelenmediğini iddia etseler de, şu an CoinGecko'da MacaronSwap'ı bulabilirsiniz :)"
+    },
+    "apr": {
+      "Text": "Havuzlarda %99999 APR istiyoruz!",
+      "Reality": "MacaronSwap emisyon oranları için bir oylama yaptı. İnsanlar kendi oyladıkları şeyi beğenmediler. Tüm oylamaları https://vote.macaronswap.com adresinden görebilirsiniz."
+    },
+    "liquidity": {
+      "Text": "Likidite çok düşük, alım satım yapamıyoruz!",
+      "Reality": "MacaronSwap ön satıştan önce token ekonomisini zaten yayınlamıştı. Ön satışta toplanan miktarın 550BNB kadarı likiditeye eklendi."
+    },
+    "teamSell": {
+      "Text": "Takım her yükseldiğinde satıyor!",
+      "Reality": "Bütün dev adresleri BSCScan üzerinde etiketlenmiş durumda. MacaronSwap ekibi oylama olmadan cüzdanlardan token salımı yapmıyor."
+    },
+    "LPFud": {
+      "Text": "Macaronların yarısını satıp, MCRN-BNB LP yapıp farma girmek.",
+      "Reality": "Macaronların yarısını yüksek fiyatlardan satıp, fiyatı düşürüp LP yaparak, daha sonra farm APY'si düşünce de LP ayırıp panik satışı yapmak. Büyük bir geçici kayıp."
+    },
+    "cakeFud": {
+      "Text": "Cake yatır, MCRN kazan havuzu daha çok APR verdiği için Macaronları satıp Cake satın almak.",
+      "Reality": "Cake yatır MCRN kazan havuzunun APR'si diğer havuzdan daha düşük hale geldi."
+    },
+    "pancakeFud": {
+      "Text": "PancakeSwap bizi listelemeyecek ve token listesine eklemeyecek!",
+      "Reality": "Pancake MacaronSwap'ı listeledi ve exchange listesine ekledi."
+    },
+    "trustFud": {
+      "Text": "TrustWallet logomuzu göstermiyor!",
+      "Reality": "Trust token listesine eklenebilmek için para ödemek ve onaylama sürecinden geçmek gerekiyor. MacaronSwap şu an Trust ve C98 üzerinde bulunuyor."
+    },
+    "websitePriceFud": {
+      "Text": "Sitede fiyat görünmüyor, bir problem mi var?",
+      "Reality": "Web bu şekilde çalışır, bazen bazı şeyler çökebilir, çalışmayabilir."
+    },
+    "noNewsFud": {
+      "Text": "Luke 2 gündür yeni haber vermedi!",
+      "Reality": "Gerçek bir ürün üretmek vakit alan bir süreç. Bu yüzden her gün topluluğa haber getirmek imkansız."
     }
   }
 }

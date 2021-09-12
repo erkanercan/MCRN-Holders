@@ -1,13 +1,11 @@
 import * as React from "react";
-import { ChakraProvider, theme } from "@chakra-ui/react";
 import { GenerateFud } from "./pages/GenerateFud";
-import { Header } from "./components/Header";
+import { Layout } from "./components/Layout";
 
 export const App = () => {
   return (
-    <ChakraProvider theme={theme}>
-      <Header />
+    <Layout>
       <GenerateFud />
-    </ChakraProvider>
+    </Layout>
   );
 };

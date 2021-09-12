@@ -1,14 +1,49 @@
 {
   "generateFud": "Generate a Fud!",
   "language": "Language",
-  "pageDescription": "Fud Generator",
+  "fudPageDescription": "Unofficial Fud Generator",
   "en-GB": "English 🇬🇧",
   "tr-TR": "Turkish 🇹🇷",
   "fuds": {
     "gecko": {
-      "fudText": "Why CoinGecko doesn't list us!",
-      "author": "",
-      "reality": "CoinGecko didn't list MacaronSwap until 2nd of April, so people were freaking out about it because the project is a scam and Gecko does not wants to list, but you can find MacaronSwap on CoinGecko now :)"
+      "Text": "Why CoinGecko doesn't list us!",
+      "Reality": "CoinGecko didn't list MacaronSwap until the 2nd of April, so people were freaking out about it because the project is a scam and Gecko does not want to list, but you can find MacaronSwap on CoinGecko now."
+    },
+    "apr": {
+      "Text": "We expect %99999 APR!",
+      "Reality": "MacaronSwap community did vote for emissions on $MCRN. You can see other votings that take place on https://vote.macaronswap.com"
+    },
+    "liquidity": {
+      "Text": "Liquidity is low! We can't sell and buy!",
+      "Reality": "MacaronSwap did publish its tokenomics on their website before the public sale. 550BNB from the presale funds added to the liquidity."
+    },
+    "teamSell": {
+      "Text": "The team sells every time the price rises!",
+      "Reality": "All dev accounts are labeled on BSCScan. MacaronSwap team does not release any tokens without a voting."
+    },
+    "LPFud": {
+      "Text": "Selling half of the MCRNs, making them MCRN-BNB LP and getting in farm.",
+      "Reality": "Selling half of the macarons from high prices, then dumping the price and makin MCRN-BNB LP. Then farm APY drops miserably, removing LP and panic selling. Huge impermanent loss."
+    },
+    "cakeFud": {
+      "Text": "Cake pool gives more APR, selling MCRN for CAKE.",
+      "Reality": "Then MCRN APY became higher than CAKE pool."
+    },
+    "pancakeFud": {
+      "Text": "PancakeSwap won't list and whitelist us!",
+      "Reality": "Pancake listed and whitelisted MacaronSwap on their exchange."
+    },
+    "trustFud": {
+      "Text": "TrustWallet does not show our logo!",
+      "Reality": "Trust wants money and some approving before showing your logo. So it takes time, MacaronSwap exists on Trust and C98 now."
+    },
+    "websitePriceFud": {
+      "Text": "Price does not shown on website, is there a problem?",
+      "Reality": "This is how web works. APIs can work and does not work sometimes."
+    },
+    "noNewsFud": {
+      "Text": "Luke didn't give us news for 2 days!",
+      "Reality": "Building something legit takes some time. So giving news every day to the community is not possible."
     }
   }
 }

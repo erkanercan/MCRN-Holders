@@ -14,7 +14,7 @@ export const LanguageSwitcher = () => {
   );
 
   return (
-    <Box>
+    <Box px="5px">
       {ready && (
         <Select placeholder={t(i18n.language)} onChange={onLanguageChange}>
           {i18n.language === "en-GB" ? (
