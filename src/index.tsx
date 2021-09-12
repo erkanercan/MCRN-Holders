@@ -4,7 +4,11 @@ import ReactDOM from "react-dom";
 import { App } from "./App";
 import reportWebVitals from "./reportWebVitals";
 import * as serviceWorker from "./serviceWorker";
+import Cookies from "universal-cookie";
 import "./i18n";
+
+const cookies = new Cookies();
+console.log(cookies.getAll());
 
 ReactDOM.render(
   <React.StrictMode>

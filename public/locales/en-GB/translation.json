@@ -4,6 +4,14 @@
   "fudPageDescription": "Unofficial Fud Generator",
   "en-GB": "English 🇬🇧",
   "tr-TR": "Turkish 🇹🇷",
+  "menuItems": {
+    "Home": {
+      "label": "Home"
+    },
+    "Fud Generator": {
+      "label": "Fud Generator"
+    }
+  },
   "fuds": {
     "gecko": {
       "Text": "Why CoinGecko doesn't list us!",

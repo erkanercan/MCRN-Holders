@@ -10,22 +10,19 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import * as React from "react";
+import { useTranslation } from "react-i18next";
 import { HiOutlineMenu, HiX } from "react-icons/hi";
+import { menuItems } from "../../data/menuItems";
 import { ColorModeSwitcher } from "../ColorModeSwitcher";
 import { LanguageSwitcher } from "../LanguageSwitcher";
 import { NavLink } from "./NavLink";
 import { NavList } from "./NavList";
 import { NavListItem } from "./NavListItem";
 
-const links = [
-  { label: "Showcase", href: "#" },
-  { label: "Reviews", href: "#" },
-  { label: "Features", href: "#" },
-  { label: "Resources", href: "#" },
-];
-
 const MobileNavContent = (props: BoxProps) => {
   const { isOpen, onToggle } = useDisclosure();
+  const { t, ready } = useTranslation();
+
   return (
     <Box {...props} zIndex="999">
       <Center
@@ -48,9 +45,11 @@ const MobileNavContent = (props: BoxProps) => {
           spacing="0"
           divider={<StackDivider borderColor="whiteAlpha.200" />}
         >
-          {links.map((link, index) => (
+          {menuItems.map((link, index) => (
             <NavListItem key={index}>
-              <NavLink.Mobile href={link.href}>{link.label}</NavLink.Mobile>
+              <NavLink.Mobile href={link.link}>{`${
+                (ready && t("menuItems." + link.label + ".label")) || link.label
+              }`}</NavLink.Mobile>
             </NavListItem>
           ))}
           <NavListItem key="colorSwitcher">
@@ -70,11 +69,15 @@ const MobileNavContent = (props: BoxProps) => {
 };
 
 const DesktopNavContent = (props: StackProps) => {
+  const { t, ready } = useTranslation();
+
   return (
     <HStack spacing="4" align="stretch" {...props}>
-      {links.map((link, index) => (
-        <NavLink.Desktop key={index} href={link.href}>
-          {link.label}
+      {menuItems.map((link, index) => (
+        <NavLink.Desktop key={index} href={link.link}>
+          {`${
+            (ready && t("menuItems." + link.label + ".label")) || link.label
+          }`}
         </NavLink.Desktop>
       ))}
       <LanguageSwitcher />

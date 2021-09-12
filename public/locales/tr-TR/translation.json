@@ -4,6 +4,14 @@
   "fudPageDescription": "Gayrıresmi Fud Yaratıcısı",
   "en-GB": "İngilizce 🇬🇧",
   "tr-TR": "Türkçe 🇹🇷",
+  "menuItems": {
+    "Home": {
+      "label": "Anasayfa"
+    },
+    "Fud Generator": {
+      "label": "Fud Yaratıcısı"
+    }
+  },
   "fuds": {
     "gecko": {
       "Text": "Arkadaşlar CoinGecko'da neden listelenmiyoruz?",
