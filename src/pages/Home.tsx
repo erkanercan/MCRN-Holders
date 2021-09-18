@@ -6,10 +6,6 @@ import { useTranslation } from "react-i18next";
 export const Home = () => {
   const { t, ready } = useTranslation();
 
-  React.useEffect(() => {
-    console.log(ready);
-  }, []);
-
   return (
     <Layout>
       <Container maxW={"3xl"}>
