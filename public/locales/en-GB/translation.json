@@ -4,6 +4,7 @@
   "fudPageDescription": "Unofficial Fud Generator",
   "en-GB": "English 🇬🇧",
   "tr-TR": "Turkish 🇹🇷",
+  "homeDescription": "Coming soon with statistics and other useful tools.",
   "menuItems": {
     "Home": {
       "label": "Home"

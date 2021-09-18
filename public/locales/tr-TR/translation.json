@@ -1,15 +1,16 @@
 {
-  "generateFud": "Fud Yarat!",
+  "generateFud": "Fud Üret!",
   "language": "Dil",
-  "fudPageDescription": "Gayrıresmi Fud Yaratıcısı",
+  "fudPageDescription": "Gayrıresmi Fud Üreticisi",
   "en-GB": "İngilizce 🇬🇧",
   "tr-TR": "Türkçe 🇹🇷",
+  "homeDescription": "Yakında istatistik ve diğer kullanışlı araçlar ile yayında.",
   "menuItems": {
     "Home": {
       "label": "Anasayfa"
     },
     "Fud Generator": {
-      "label": "Fud Yaratıcısı"
+      "label": "Fud Üreticisi"
     }
   },
   "fuds": {
