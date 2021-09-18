@@ -3,6 +3,17 @@ import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import Backend from "i18next-http-backend";
 
+import translationEN from "./locales/en-GB/translation.json";
+import translationTR from "./locales/tr-TR/translation.json";
+const resources = {
+  "en-GB": {
+    translation: translationEN,
+  },
+  "tr-TR": {
+    translation: translationTR,
+  },
+};
+
 i18n
   .use(Backend)
   .use(LanguageDetector)
@@ -10,6 +21,7 @@ i18n
   .init({
     debug: true,
     fallbackLng: "en",
+    resources: resources,
     react: {
       useSuspense: false,
     },
