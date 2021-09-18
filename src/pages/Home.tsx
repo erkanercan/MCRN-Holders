@@ -1,16 +1,6 @@
 import * as React from "react";
 import { Layout } from "../components/Layout";
-import {
-  Box,
-  Heading,
-  Container,
-  Text,
-  Button,
-  Stack,
-  Icon,
-  useColorModeValue,
-  createIcon,
-} from "@chakra-ui/react";
+import { Box, Heading, Container, Text, Stack } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
 
 export const Home = () => {
