@@ -2,8 +2,8 @@
   "generateFud": "Generate a Fud!",
   "language": "Language",
   "fudPageDescription": "Unofficial Fud Generator",
-  "en-GB": "English 🇬🇧",
-  "tr-TR": "Turkish 🇹🇷",
+  "en": "English 🇬🇧",
+  "tr": "Turkish 🇹🇷",
   "homeDescription": "Coming soon with statistics and other useful tools.",
   "menuItems": {
     "Home": {

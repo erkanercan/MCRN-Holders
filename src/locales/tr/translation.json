@@ -2,8 +2,8 @@
   "generateFud": "Fud Üret!",
   "language": "Dil",
   "fudPageDescription": "Gayrıresmi Fud Üreticisi",
-  "en-GB": "İngilizce 🇬🇧",
-  "tr-TR": "Türkçe 🇹🇷",
+  "en": "İngilizce 🇬🇧",
+  "tr": "Türkçe 🇹🇷",
   "homeDescription": "Yakında istatistik ve diğer kullanışlı araçlar ile yayında.",
   "menuItems": {
     "Home": {

@@ -3,16 +3,13 @@ import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import Backend from "i18next-http-backend";
 
-import translationEN from "./locales/en-GB/translation.json";
-import translationTR from "./locales/tr-TR/translation.json";
+import translationEN from "./locales/en/translation.json";
+import translationTR from "./locales/tr/translation.json";
 const resources = {
-  "en-GB": {
+  en: {
     translation: translationEN,
   },
-  "en-US": {
-    translation: translationEN,
-  },
-  "tr-TR": {
+  tr: {
     translation: translationTR,
   },
 };
@@ -23,7 +20,7 @@ i18n
   .use(initReactI18next)
   .init({
     debug: true,
-    fallbackLng: "en-GB",
+    lng: "en",
     resources,
     react: {
       useSuspense: false,

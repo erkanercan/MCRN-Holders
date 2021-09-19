@@ -17,13 +17,13 @@ export const LanguageSwitcher = () => {
     <Box px="5px">
       {ready && (
         <Select placeholder={t(i18n.language)} onChange={onLanguageChange}>
-          {i18n.language === "en-GB" ? (
-            <option key="tr-TR" value="tr-TR">
-              {t("tr-TR")}
+          {i18n.language === "en" ? (
+            <option key="tr" value="tr">
+              {t("tr")}
             </option>
           ) : (
-            <option key="en-GB" value="en-GB">
-              {t("en-GB")}
+            <option key="en" value="en">
+              {t("en")}
             </option>
           )}
         </Select>
