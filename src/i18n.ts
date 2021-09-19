@@ -20,8 +20,8 @@ i18n
   .use(initReactI18next)
   .init({
     debug: true,
-    fallbackLng: "en",
-    resources: resources,
+    fallbackLng: "en-GB",
+    resources,
     react: {
       useSuspense: false,
     },
